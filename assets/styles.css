@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;500;800&family=Exo:ital,wght@0,600;0,800;1,200&display=swap');
+body{
+    background: linear-gradient(rgb(165, 159, 170),rgb(129, 0, 73));           
+    margin: 0;
+}
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container{
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around ;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+#butao1{
+    background-color: rgb(140, 238, 177);
+    position:absolute;
+    white-space: nowrap;
+    font-size: 2rem;
+
+    
+}
+
+#butao2{
+    position:absolute;
+    white-space: nowrap;
+    font-size: 2rem;
+   
+    background-color: rgb(216, 135, 135);
+}
+
+
+h1{
+    font-family: 'Exo 2', sans-serif;
+    display: flex;
+    justify-content: space-around ;
+    flex-direction: row;
+    align-items: center;
+}
+
+button{
+    height: 45px;
+    width: 90px;
+    border-radius: 10px;
+    
+}
